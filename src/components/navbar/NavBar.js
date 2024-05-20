@@ -2,11 +2,12 @@ import React from 'react';
 import Links from './links/Links';
 import styles from './navbar.module.css';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const NavBar = () => {
   return (
     <div className={styles.container}>
-      <div>
+      <Link href='/'>
         <Image
           src='/logo.png'
           alt='logo'
@@ -14,7 +15,7 @@ const NavBar = () => {
           width={100}
           height={100}
         />
-      </div>
+      </Link>
       <div>
         <Links />
       </div>
