@@ -1,4 +1,7 @@
+# Just Playing with nextJS
+
 ## Getting Started
+
 
 First, install the dependencies:
 
