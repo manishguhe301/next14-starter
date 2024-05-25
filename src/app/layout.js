@@ -6,7 +6,10 @@ import Footer from '@/components/footer/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'MG',
+  title: {
+    default: 'MG',
+    template: '%s | MG',
+  },
   description: 'Creative Thoughts Agency.',
 };
 

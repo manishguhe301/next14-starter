@@ -7,13 +7,12 @@ import styles from './contact.module.css';
 // const HydrationTestNoSSR = dynamic(()=>import("@/components/hydrationTest"), {ssr: false})
 
 export const metadata = {
-  title: 'MG',
-  description: 'Creative Thoughts Agency.',
+  title: 'Contact Page',
+  description: 'Contact Page',
 };
 
 const ContactPage = () => {
   // const a = Math.random();
-
 
   return (
     <div className={styles.container}>
